@@ -30,6 +30,7 @@ function isAuthenticated(req, res, next) {
 // ---------- Routes ----------
 
 // Serve login page at root
+// anirudha was added
 app.get('/', (req, res) => {
   if (req.session.user) {
     res.redirect('/public/index.html');
