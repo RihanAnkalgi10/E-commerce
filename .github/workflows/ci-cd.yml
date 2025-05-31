@@ -84,4 +84,4 @@ jobs:
           EOF
 
       - name: Cleanup
-        run: rm -f key.pem
+        run: rm -f key.pem  
