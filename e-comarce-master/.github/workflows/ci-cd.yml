@@ -51,7 +51,7 @@ jobs:
             rm -rf ~/e-comarce
 
             # Clone latest code
-            git clone https://github.com/SHIVANGOUDAPATIL1234/e-comarce.git ~/e-comarce
+            git clone https://github.com/RihanAnkalgi10/E-commerce.git
             cd ~/e-comarce
 
             # Pull latest Docker image
