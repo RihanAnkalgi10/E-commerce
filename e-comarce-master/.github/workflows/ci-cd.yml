@@ -60,3 +60,7 @@ jobs:
             # Restart container using docker compose
             sudo docker compose down -v || true
             sudo docker compose up -d
+            - name: Set Git identity
+  run: |
+    git config --global user.name "RihanAnkalgi10"
+    git config --global user.email "rihanankalagi@gmail.com"
