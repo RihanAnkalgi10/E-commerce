@@ -19,6 +19,7 @@ const USERS_FILE = 'users.json';
 const ORDERS_FILE = 'orders.json';
 
 // ---------- Helper Middleware ----------
+// josh
 function isAuthenticated(req, res, next) {
   if (req.session.user) {
     next();
